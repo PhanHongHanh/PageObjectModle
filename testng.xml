@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CRMSuite" verbose="1">
+
+    <parameter name="browserType" value="chrome"></parameter>
+    <parameter name="appURL" value="https://mediamart.vn/login"></parameter>
+
+    <test name="CRMRunTest">
+        <classes>
+            <class name="hanhtest.Testcases.SignInTest">
+<!--                <methods>-->
+<!--                    <include name="signInPage"/>-->
+<!--                    <include name="optionHangPage"/>-->
+<!--                </methods>-->
+            </class>
+<!--            <class name="secondpackage.FirstClass">-->
+<!--                <methods>-->
+<!--                    <include name="firstTest" />-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+
+</suite>
+
